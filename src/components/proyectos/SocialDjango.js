@@ -1,13 +1,52 @@
-import React from "react";
-import { useParams } from "react-router-dom";
 import Layout from "../../layout";
 import {
   CloudArrowUpIcon,
   LockClosedIcon,
   ServerIcon,
 } from "@heroicons/react/20/solid";
+import { proyectos } from "../../hooks/countProyects";
+
+import Glide from "@glidejs/glide";
+import "@glidejs/glide/dist/css/glide.core.min.css";
+import "@glidejs/glide/dist/css/glide.theme.min.css";
+import { useState, useEffect, useRef } from "react";
 
 export default function SocialDjango() {
+  const glideRef = useRef(null);
+
+  useEffect(() => {
+    new Glide(glideRef.current, {
+      type: "carousel",
+      perView: 1,
+      focusAt: "center",
+      autoplay: 8000,
+      animationDuration: 2000,
+      swipeThreshold: false,
+      hoverpause: true,
+      breakpoints: {
+        640: {
+          perView: 1,
+          gap: 550,
+        },
+        768: {
+          perView: 1,
+          gap: 450,
+        },
+        1024: {
+          perView: 1,
+          gap: 450,
+        },
+        1536: {
+          perView: 1,
+          gap: 200,
+        },
+      },
+    }).mount();
+  }, []);
+
+  const Item = proyectos[0];
+  const images = [Item.photos[0], Item.photos[2], Item.photos[1]];
+
   return (
     <Layout>
       <div className="relative isolate overflow-hidden bg-gray-900 px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
@@ -29,10 +68,10 @@ export default function SocialDjango() {
             <div className="lg:pr-4">
               <div className="lg:max-w-lg">
                 <p className="text-base font-semibold leading-7 text-indigo-600">
-                  Deploy faster
+                  Django
                 </p>
                 <h1 className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
-                  A better workflow
+                  Social App
                 </h1>
                 <p className="mt-6 text-xl leading-8 text-gray-300">
                   Aliquet nec orci mattis amet quisque ullamcorper neque, nibh
@@ -43,12 +82,27 @@ export default function SocialDjango() {
             </div>
           </div>
 
-          <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
-            <img
-              className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
-              src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
-              alt=""
-            />
+          <div className="lg:-ml-12 -mr-44 -mt-12 lg:p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
+            <div
+              className="glide shadow-xl shadow-indigo-500/50 rounded-xl"
+              ref={glideRef}
+            >
+              <div className="glide__track" data-glide-el="track">
+                <ul className="glide__slides">
+                  {images.map((img, index) => {
+                    return (
+                      <li className="glide__slide" key={index}>
+                        <img
+                          className=" w-[48rem] max-w-none rounded-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
+                          src={img}
+                          alt=""
+                        />
+                      </li>
+                    );
+                  })}
+                </ul>
+              </div>
+            </div>
           </div>
 
           <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
