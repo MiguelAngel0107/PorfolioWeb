@@ -72,7 +72,7 @@ export default function OwnDark() {
                   React y Django
                 </p>
                 <h1 className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
-                  A better workflow
+                  Ecommerce-Own-Dark
                 </h1>
                 <p className="mt-6 text-xl leading-8 text-gray-300">
                   Aliquet nec orci mattis amet quisque ullamcorper neque, nibh

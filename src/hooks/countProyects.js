@@ -92,7 +92,7 @@ export const proyectos = [
     icon: FingerPrintIcon,
   },
   {
-    name: "MultiTasks",
+    name: "Multi-Tasks",
     description: "Se utilizo demasiadas tecnologias, el objetivo era consolidar conocimientos",
     href: "/proyectos/all",
     photos: [

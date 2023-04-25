@@ -68,26 +68,28 @@ export default function AllSkills() {
             <div className="lg:pr-4">
               <div className="lg:max-w-lg">
                 <p className="text-base font-semibold leading-7 text-indigo-600">
-                  NextJs y DjangoRestFramework 
+                  NextJs y DjangoRestFramework
                 </p>
                 <h1 className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
-                  A better workflow
+                  Chat-Ecommerce-Blog
                 </h1>
                 <p className="mt-6 text-xl leading-8 text-gray-300">
-                  Aliquet nec orci mattis amet quisque ullamcorper neque, nibh
-                  sem. At arcu, sit dui mi, nibh dui, diam eget aliquam. Quisque
-                  id at vitae feugiat egestas.
+                  Este es proyecto de código abierto que demuestra las
+                  habilidades de su autor en el desarrollo web. Incluye un
+                  sistema de chat en tiempo real, una base de datos PostgreSQL y
+                  Redis, un sistema de comercio electrónico, un blog, un perfil
+                  de usuario y muchas funcionalidades
                 </p>
               </div>
             </div>
           </div>
 
           <div className="lg:-ml-12 -mr-44 -mt-12 lg:p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
-            <div className="glide shadow-xl shadow-indigo-500/50 rounded-xl" ref={glideRef}>
-              <div
-                className="glide__track"
-                data-glide-el="track"
-              >
+            <div
+              className="glide shadow-xl shadow-indigo-500/50 rounded-xl"
+              ref={glideRef}
+            >
+              <div className="glide__track" data-glide-el="track">
                 <ul className="glide__slides">
                   {images.map((img, index) => {
                     return (

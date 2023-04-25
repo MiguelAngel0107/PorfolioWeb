@@ -71,12 +71,13 @@ export default function SocialDjango() {
                   Django
                 </p>
                 <h1 className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
-                  Social App
+                  Social-App
                 </h1>
                 <p className="mt-6 text-xl leading-8 text-gray-300">
-                  Aliquet nec orci mattis amet quisque ullamcorper neque, nibh
-                  sem. At arcu, sit dui mi, nibh dui, diam eget aliquam. Quisque
-                  id at vitae feugiat egestas.
+                  El proyecto tiene como objetivo proporcionar una plataforma
+                  básica para la creación de una red social, con funcionalidades
+                  como registro de usuarios, inicio de sesión, publicación de
+                  contenido, seguimiento de usuarios y comentarios.
                 </p>
               </div>
             </div>
