@@ -7,7 +7,7 @@ import {
   ServerIcon,
 } from "@heroicons/react/20/solid";
 
-export default function SocialDjango() {
+export default function OwnInfinity() {
   return (
     <Layout>
       <div className="relative isolate overflow-hidden bg-gray-900 px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">

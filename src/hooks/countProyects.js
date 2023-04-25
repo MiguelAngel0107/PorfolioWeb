@@ -61,21 +61,21 @@ export const proyectos = [
   {
     name: "DjangoSocial",
     description: "Se utilizo Django y TailwindCSS, fue uno de los primeros proyectos",
-    href: "#",
+    href: "/proyectos/social",
     photos: [Social1, Social2, Social3, Social4],
     icon: ChartPieIcon,
   },
   {
     name: "OwnDarkEcommerce",
     description: "Se utilizo DRF, React y Tailwind, se llego a desplegar pero era costo mantenerlo.",
-    href: "#",
+    href: "/proyectos/dark",
     photos: [Dark1, Dark2, Dark3, Dark4, Dark5, Dark6, Dark7, Dark8],
     icon: CursorArrowRaysIcon,
   },
   {
     name: "OwnInfinity",
     description: "Se utilizo DRF, React y Tailwind, fue el primer intento de aperturar un Studio",
-    href: "#",
+    href: "/proyectos/infinity",
     photos: [
       Infinity1,
       Infinity2,
@@ -94,7 +94,7 @@ export const proyectos = [
   {
     name: "MultiTasks",
     description: "Se utilizo demasiadas tecnologias, el objetivo era consolidar conocimientos",
-    href: "#",
+    href: "/proyectos/all",
     photos: [
       AllSkills1,
       AllSkills2,
