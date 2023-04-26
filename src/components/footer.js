@@ -9,36 +9,6 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
-  const card = (
-    <div className="flex flex-col items-center gap-4 rounded-lg bg-indigo-600 p-6 shadow-lg sm:flex-row sm:justify-between">
-      <strong className="text-xl text-white sm:text-xl">
-        Make Your Next Career Move!
-      </strong>
-
-      <a
-        className="inline-flex items-center gap-2 rounded-full border border-white bg-white px-8 py-3 text-indigo-600 hover:bg-transparent hover:text-white focus:outline-none focus:ring active:bg-white/90"
-        href="/"
-      >
-        <span className="text-sm font-medium"> Let's Get Started </span>
-
-        <svg
-          className="h-5 w-5 rtl:rotate-180"
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            d="M17 8l4 4m0 0l-4 4m4-4H3"
-          />
-        </svg>
-      </a>
-    </div>
-  );
-
   return (
     <>
       <footer class="text-gray-400 bg-gray-950 body-font absolute inset-x-0">
@@ -65,16 +35,16 @@ export default function Footer() {
           </p>
 
           <span class="inline-flex sm:ml-auto justify-center sm:justify-start mt-4 sm:mt-0">
-            <a href="https://www.linkedin.com/in/miguel-egocheaga-a68a44259" class="ml-3 text-white hover:text-indigo-600 cursor-pointer">
+            <a href="https://www.linkedin.com/in/miguel-egocheaga-a68a44259" target="_blank" class="ml-3 text-white hover:text-indigo-600 cursor-pointer">
               <FontAwesomeIcon icon={faLinkedin} className="w-5 h-5" />
             </a>
-            <a href="https://github.com/MiguelAngel0107" class="ml-3 text-white hover:text-indigo-600 cursor-pointer">
+            <a href="https://github.com/MiguelAngel0107" target="_blank" class="ml-3 text-white hover:text-indigo-600 cursor-pointer">
             <FontAwesomeIcon icon={faGithub} className="w-5 h-5" />
             </a>
             {/*<a href="#" class="ml-3 text-white hover:text-indigo-600 cursor-pointer">
               <FontAwesomeIcon icon={faSpotify} className="w-5 h-5" />
             </a>*/}
-            <a href="https://www.instagram.com/miguelsuyo/" class="ml-3 text-white hover:text-indigo-600 cursor-pointer">
+            <a href="https://www.instagram.com/miguelsuyo/" target="_blank" class="ml-3 text-white hover:text-indigo-600 cursor-pointer">
               <FontAwesomeIcon icon={faInstagram} className="w-5 h-5" />
             </a>
             {/*<a href="#" class="ml-3 text-white hover:text-indigo-600 cursor-pointer">

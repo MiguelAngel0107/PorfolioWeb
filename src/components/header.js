@@ -34,6 +34,7 @@ export default function Example() {
               Visita mis repositorios en Github.{" "}
               <a
                 href="https://github.com/MiguelAngel0107"
+                target="_blank"
                 className="font-semibold text-indigo-600 hover:text-indigo-800"
               >
                 <span className="absolute inset-0" aria-hidden="true" />
@@ -64,6 +65,7 @@ export default function Example() {
               </Link>
               <a
                 href="https://github.com/MiguelAngel0107"
+                target="_blank"
                 className="text-sm font-semibold leading-6 text-gray-200 hover:text-white"
               >
                 Repositorios <span aria-hidden="true">→</span>

@@ -181,7 +181,7 @@ export default function AllSkills() {
               </div>
               <div className="mt-24 text-center">
                 <a
-                  href="https://github.com/tu-usuario/tu-proyecto"
+                  href="https://github.com/MiguelAngel0107/Project-All-Skills"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-800 hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
@@ -201,6 +201,7 @@ export default function AllSkills() {
                     />
                   </svg>
                 </a>
+                
               </div>
             </div>
           </div>
