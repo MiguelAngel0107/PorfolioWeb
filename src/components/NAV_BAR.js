@@ -4,12 +4,7 @@ import { Link } from "react-router-dom";
 import { Fragment, useEffect, useState } from "react";
 import { Dialog, Disclosure, Popover } from "@headlessui/react";
 import {
-  ArrowPathIcon,
   Bars4Icon,
-  ChartPieIcon,
-  CursorArrowRaysIcon,
-  FingerPrintIcon,
-  SquaresPlusIcon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
 import {

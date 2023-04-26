@@ -3,7 +3,6 @@ import Inicio from "./pages/incio";
 import Proyectos from "./pages/proyectos";
 import Contacto from "./pages/contacto";
 import NotFound from "./pages/notFound";
-import Navbar from "./components/navBar";
 import SocialDjango from "./components/proyectos/SocialDjango";
 import OwnInfinity from "./components/proyectos/OwnInfinity";
 import OwnDark from "./components/proyectos/OwnDark";
