@@ -10,6 +10,7 @@ import Glide from "@glidejs/glide";
 import "@glidejs/glide/dist/css/glide.core.min.css";
 import "@glidejs/glide/dist/css/glide.theme.min.css";
 import { useState, useEffect, useRef } from "react";
+import CsarruseLogos from "./carruseLogos";
 
 export default function SocialDjango() {
   const glideRef = useRef(null);
@@ -45,7 +46,7 @@ export default function SocialDjango() {
   }, []);
 
   const Item = proyectos[0];
-  const images = [Item.photos[0], Item.photos[2], Item.photos[1]];
+  const images = Item.photos;
 
   return (
     <Layout>
@@ -71,13 +72,15 @@ export default function SocialDjango() {
                   Django
                 </p>
                 <h1 className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
-                  Social-App
+                  Django-Social
                 </h1>
                 <p className="mt-6 text-xl leading-8 text-gray-300">
-                  El proyecto tiene como objetivo proporcionar una plataforma
-                  básica para la creación de una red social, con funcionalidades
-                  como registro de usuarios, inicio de sesión, publicación de
-                  contenido, seguimiento de usuarios y comentarios.
+                  Django-Social es una aplicación web construida con tecnologías
+                  React, Redux y Tailwind CSS que permite a los usuarios
+                  publicar y interactuar con publicaciones en línea. La
+                  aplicación se centra en la creación de contenido, permitiendo
+                  a los usuarios compartir sus pensamientos, ideas y opiniones
+                  con otros usuarios en la plataforma.
                 </p>
               </div>
             </div>
@@ -85,7 +88,7 @@ export default function SocialDjango() {
 
           <div className="lg:-ml-12 -mr-44 -mt-12 lg:p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
             <div
-              className="glide shadow-xl shadow-indigo-500/50 rounded-xl"
+              className="glide shadow-xl shadow-indigo-500/50 rounded-xl mb-14 lg:mb-0"
               ref={glideRef}
             >
               <div className="glide__track" data-glide-el="track">
@@ -104,18 +107,21 @@ export default function SocialDjango() {
                 </ul>
               </div>
             </div>
+            <CsarruseLogos logos="social" />
           </div>
 
           <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
             <div className="lg:pr-4">
               <div className="max-w-xl text-base leading-7 text-gray-200 lg:max-w-lg">
                 <p>
-                  Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget
-                  risus enim. Mattis mauris semper sed amet vitae sed turpis id.
-                  Id dolor praesent donec est. Odio penatibus risus viverra
-                  tellus varius sit neque erat velit. Faucibus commodo massa
-                  rhoncus, volutpat. Dignissim sed eget risus enim. Mattis
-                  mauris semper sed amet vitae sed turpis id.
+                  La aplicación tiene una interfaz de usuario bien diseñada,
+                  amigable y fácil de usar, lo que hace que la experiencia de
+                  los usuarios sea agradable y satisfactoria. La aplicación
+                  cuenta con una funcionalidad de autenticación basada en Jason
+                  web token que garantiza la seguridad de los datos de los
+                  usuarios. Además, los datos del usuario, como las contraseñas,
+                  están encriptados para proporcionar una capa adicional de
+                  seguridad.
                 </p>
                 <ul role="list" className="mt-8 space-y-8 text-gray-400">
                   <li className="flex gap-x-3">
@@ -125,11 +131,15 @@ export default function SocialDjango() {
                     />
                     <span>
                       <strong className="font-semibold text-white">
-                        Push to deploy.
+                        Personalización.
                       </strong>{" "}
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Maiores impedit perferendis suscipit eaque, iste dolor
-                      cupiditate blanditiis ratione.
+                      Una de las características principales de Django-Social es
+                      el perfil de usuario, que permite a los usuarios
+                      personalizar su información y controlar quién tiene acceso
+                      a ella. Los usuarios pueden actualizar su foto de perfil,
+                      su foto de banner y agregar información adicional sobre
+                      ellos mismos. La información del perfil se puede hacer
+                      pública o privada, según las preferencias del usuario.
                     </span>
                   </li>
                   <li className="flex gap-x-3">
@@ -139,10 +149,15 @@ export default function SocialDjango() {
                     />
                     <span>
                       <strong className="font-semibold text-white">
-                        SSL certificates.
+                        Interactuar.
                       </strong>{" "}
-                      Anim aute id magna aliqua ad ad non deserunt sunt. Qui
-                      irure qui lorem cupidatat commodo.
+                      Otra característica destacada de Django-Social es su
+                      capacidad para permitir a los usuarios interactuar con
+                      publicaciones. Los usuarios pueden dar "me gusta" a las
+                      publicaciones, comentarlas y compartirlas con otros
+                      usuarios en la plataforma. Esto fomenta la creación de
+                      comunidades en línea, lo que hace que la aplicación sea
+                      aún más atractiva para los usuarios.
                     </span>
                   </li>
                   <li className="flex gap-x-3">
@@ -152,31 +167,62 @@ export default function SocialDjango() {
                     />
                     <span>
                       <strong className="font-semibold text-white">
-                        Database backups.
+                        Seguridad.
                       </strong>{" "}
-                      Ac tincidunt sapien vehicula erat auctor pellentesque
-                      rhoncus. Et magna sit morbi lobortis.
+                      Una de las características más importantes de esta
+                      aplicación es su capacidad de autenticación mediante JWT,
+                      lo que asegura que solo los usuarios registrados y
+                      autorizados puedan acceder a la aplicación. Todas las
+                      contraseñas de los usuarios están encriptadas con argon2
+                      para garantizar la seguridad de la información personal.
                     </span>
                   </li>
                 </ul>
                 <p className="mt-8">
-                  Et vitae blandit facilisi magna lacus commodo. Vitae sapien
-                  duis odio id et. Id blandit molestie auctor fermentum
-                  dignissim. Lacus diam tincidunt ac cursus in vel. Mauris
-                  varius vulputate et ultrices hac adipiscing egestas. Iaculis
-                  convallis ac tempor et ut. Ac lorem vel integer orci.
+                  En resumen, Django-Social es una aplicación web bien diseñada
+                  y fácil de usar que se centra en la creación de contenido y la
+                  interacción de los usuarios. Con una funcionalidad de
+                  autenticación segura, opciones de personalización y una amplia
+                  gama de funciones de interacción, la aplicación es una
+                  plataforma atractiva y útil para los usuarios que buscan
+                  compartir sus ideas en línea.
                 </p>
                 <h2 className="mt-16 text-2xl font-bold tracking-tight text-white">
-                  No server? No problem.
+                  Experiencia creando la aplicación
                 </h2>
                 <p className="mt-6">
-                  Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam
-                  consequat in. Convallis arcu ipsum urna nibh. Pharetra,
-                  euismod vitae interdum mauris enim, consequat vulputate nibh.
-                  Maecenas pellentesque id sed tellus mauris, ultrices mauris.
-                  Tincidunt enim cursus ridiculus mi. Pellentesque nam sed
-                  nullam sed diam turpis ipsum eu a sed convallis diam.
+                  Crear Django-Social fue una experiencia desafiante pero
+                  emocionante que me permitió consolidar mis conocimientos en
+                  back-end y front-end, y aprender nuevos conceptos y
+                  herramientas. El proyecto me permitió experimentar con una
+                  variedad de tecnologías y técnicas, incluyendo React, Redux,
+                  Tailwind CSS, Django, caché, almacenamiento local, cookies,
+                  serializadores, controladores y bases de datos como
+                  PostgreSQL.
                 </p>
+              </div>
+              <div className="mt-24 text-center">
+                <a
+                  href="https://github.com/tu-usuario/tu-proyecto"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-800 hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                >
+                  Ver en GitHub
+                  <svg
+                    className="w-5 h-5 ml-2 -mr-1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10 0C4.477 0 0 4.477 0 10c0 4.411 2.865 8.138 6.84 9.466.5.093.682-.216.682-.48 0-.237-.009-.866-.013-1.698-2.782.604-3.37-1.338-3.37-1.338-.455-1.158-1.112-1.467-1.112-1.467-.908-.621.069-.608.069-.608 1.005.074 1.533 1.032 1.533 1.032.893 1.529 2.34 1.087 2.91.832.092-.648.35-1.088.636-1.338-2.224-.252-4.566-1.112-4.566-4.94 0-1.091.389-1.984 1.032-2.683-.104-.253-.448-1.267.098-2.639 0 0 .84-.269 2.75 1.022.798-.221 1.647-.332 2.495-.332.848 0 1.697.111 2.495.332 1.91-1.291 2.75-1.022 2.75-1.022.546 1.372.202 2.386.098 2.639.642.699 1.032 1.592 1.032 2.683 0 3.838-2.345 4.686-4.578 4.934.36.309.682.922.682 1.854 0 1.338-.012 2.416-.012 2.744 0 .266.18.574.688.478C17.138 18.136 20 14.41 20 10c0-5.523-4.477-10-10-10z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </a>
               </div>
             </div>
           </div>

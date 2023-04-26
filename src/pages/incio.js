@@ -1,6 +1,7 @@
 import Layout from "../layout";
 import Header from "../components/header";
 import { proyectos } from "../hooks/countProyects";
+import { Link } from "react-router-dom";
 
 export default function Incio() {
   return (
@@ -11,7 +12,7 @@ export default function Incio() {
         <div class="flex flex-wrap mx-auto md:flex-nowrap p-4 md:p-12">
           {proyectos.map((proyect, index) => {
             return (
-              <a href={proyect.href}>
+              <Link to={proyect.href}>
                 <div class="w-full">
                   <div class="relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform bg-indigo-800 hover:bg-indigo-600 shadow-2xl rounded-xl md:w-80 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
                     <img
@@ -29,7 +30,7 @@ export default function Incio() {
                     </div>
                   </div>
                 </div>
-              </a>
+              </Link>
             );
           })}
         </div>

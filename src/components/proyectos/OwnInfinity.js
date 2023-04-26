@@ -1,4 +1,3 @@
-import React from "react";
 import Layout from "../../layout";
 import {
   CloudArrowUpIcon,
@@ -11,6 +10,7 @@ import Glide from "@glidejs/glide";
 import "@glidejs/glide/dist/css/glide.core.min.css";
 import "@glidejs/glide/dist/css/glide.theme.min.css";
 import { useState, useEffect, useRef } from "react";
+import CsarruseLogos from "./carruseLogos";
 
 export default function OwnInfinity() {
   const glideRef = useRef(null);
@@ -83,11 +83,11 @@ export default function OwnInfinity() {
           </div>
 
           <div className="lg:-ml-12 -mr-44 -mt-12 lg:p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
-            <div className="glide shadow-xl shadow-indigo-500/50 rounded-xl" ref={glideRef}>
-              <div
-                className="glide__track"
-                data-glide-el="track"
-              >
+            <div
+              className="glide shadow-xl shadow-indigo-500/50 rounded-xl"
+              ref={glideRef}
+            >
+              <div className="glide__track" data-glide-el="track">
                 <ul className="glide__slides">
                   {images.map((img, index) => {
                     return (
@@ -103,6 +103,7 @@ export default function OwnInfinity() {
                 </ul>
               </div>
             </div>
+            <CsarruseLogos logos="infinity" />
           </div>
 
           <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
@@ -176,6 +177,29 @@ export default function OwnInfinity() {
                   Tincidunt enim cursus ridiculus mi. Pellentesque nam sed
                   nullam sed diam turpis ipsum eu a sed convallis diam.
                 </p>
+              </div>
+              <div className="mt-24 text-center">
+                <a
+                  href="https://github.com/tu-usuario/tu-proyecto"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-800 hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                >
+                  Ver en GitHub
+                  <svg
+                    className="w-5 h-5 ml-2 -mr-1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10 0C4.477 0 0 4.477 0 10c0 4.411 2.865 8.138 6.84 9.466.5.093.682-.216.682-.48 0-.237-.009-.866-.013-1.698-2.782.604-3.37-1.338-3.37-1.338-.455-1.158-1.112-1.467-1.112-1.467-.908-.621.069-.608.069-.608 1.005.074 1.533 1.032 1.533 1.032.893 1.529 2.34 1.087 2.91.832.092-.648.35-1.088.636-1.338-2.224-.252-4.566-1.112-4.566-4.94 0-1.091.389-1.984 1.032-2.683-.104-.253-.448-1.267.098-2.639 0 0 .84-.269 2.75 1.022.798-.221 1.647-.332 2.495-.332.848 0 1.697.111 2.495.332 1.91-1.291 2.75-1.022 2.75-1.022.546 1.372.202 2.386.098 2.639.642.699 1.032 1.592 1.032 2.683 0 3.838-2.345 4.686-4.578 4.934.36.309.682.922.682 1.854 0 1.338-.012 2.416-.012 2.744 0 .266.18.574.688.478C17.138 18.136 20 14.41 20 10c0-5.523-4.477-10-10-10z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </a>
               </div>
             </div>
           </div>

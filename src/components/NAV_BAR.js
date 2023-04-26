@@ -3,10 +3,7 @@ import { Link } from "react-router-dom";
 
 import { Fragment, useEffect, useState } from "react";
 import { Dialog, Disclosure, Popover } from "@headlessui/react";
-import {
-  Bars4Icon,
-  XMarkIcon,
-} from "@heroicons/react/24/outline";
+import { Bars4Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import {
   ChevronDownIcon,
   PhoneIcon,
@@ -35,7 +32,10 @@ const Navbar = () => {
   ];
 
   return (
-    <Menu as="nav" className="bg-gray-900 hover:bg-gradient-to-l to-gray-900 from-gray-950 absolute inset-x-0 top-0 z-50">
+    <Menu
+      as="nav"
+      className="bg-gray-900 hover:bg-gradient-to-l to-gray-900 from-gray-950 absolute inset-x-0 top-0 z-50"
+    >
       {({ open }) => (
         <>
           <div className="flex justify-between items-center h-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -115,13 +115,13 @@ const Navbar = () => {
                               />
                             </div>
                             <div className="flex-auto">
-                              <a
-                                href={item.href}
+                              <Link
+                                to={item.href}
                                 className="block font-semibold text-gray-900 dark:text-white"
                               >
                                 {item.name}
                                 <span className="absolute inset-0" />
-                              </a>
+                              </Link>
                               <p className="mt-1 text-gray-400">
                                 {item.description}
                               </p>
@@ -131,9 +131,9 @@ const Navbar = () => {
                       </div>
                       <div className="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-200">
                         {callsToAction.map((item) => (
-                          <a
+                          <Link
                             key={item.name}
-                            href={item.href}
+                            to={item.href}
                             className="group flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-gray-900 hover:bg-white hover:text-indigo-600"
                           >
                             <item.icon
@@ -141,7 +141,7 @@ const Navbar = () => {
                               aria-hidden="true"
                             />
                             {item.name}
-                          </a>
+                          </Link>
                         ))}
                       </div>
                     </Popover.Panel>
@@ -189,7 +189,7 @@ const Navbar = () => {
                       {({ open }) => (
                         <>
                           <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 hover:bg-indigo-500 text-white bg-gray-700/20 sm:bg-gray-900">
-                            Proyectos
+                            <Link to="/proyectos">Proyectos</Link>
                             <ChevronDownIcon
                               className={classNames(
                                 open ? "rotate-180" : "",
@@ -202,11 +202,10 @@ const Navbar = () => {
                             {[...proyectos].map((item) => (
                               <Disclosure.Button
                                 key={item.name}
-                                as="a"
-                                href={item.href}
+                                as="div"
                                 className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-300 hover:bg-indigo-500 bg-gray-800/10 sm:bg-gray-900"
                               >
-                                {item.name}
+                                <Link to={item.href}>{item.name}</Link>
                               </Disclosure.Button>
                             ))}
                           </Disclosure.Panel>
@@ -214,7 +213,7 @@ const Navbar = () => {
                       )}
                     </Disclosure>
                     <Link
-                      to="#"
+                      to="/"
                       className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-indigo-600 bg-gray-700/20 sm:bg-gray-900"
                     >
                       Trayectoria
