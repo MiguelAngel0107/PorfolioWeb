@@ -74,9 +74,8 @@ export default function OwnDark() {
                   Ecommerce-Own-Dark
                 </h1>
                 <p className="mt-6 text-xl leading-8 text-gray-300">
-                  Aliquet nec orci mattis amet quisque ullamcorper neque, nibh
-                  sem. At arcu, sit dui mi, nibh dui, diam eget aliquam. Quisque
-                  id at vitae feugiat egestas.
+                  OwnDark es una solución completa para el comercio electrónico
+                  ya que se adapta tanto a la web como a dispositivos móviles.
                 </p>
               </div>
             </div>
@@ -110,12 +109,15 @@ export default function OwnDark() {
             <div className="lg:pr-4">
               <div className="max-w-xl text-base leading-7 text-gray-200 lg:max-w-lg">
                 <p>
-                  Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget
-                  risus enim. Mattis mauris semper sed amet vitae sed turpis id.
-                  Id dolor praesent donec est. Odio penatibus risus viverra
-                  tellus varius sit neque erat velit. Faucibus commodo massa
-                  rhoncus, volutpat. Dignissim sed eget risus enim. Mattis
-                  mauris semper sed amet vitae sed turpis id.
+                  OwnDarkk es una impresionante aplicación de comercio
+                  electrónico diseñada para brindar una experiencia de compra
+                  fluida y sin problemas a los usuarios y para ayudar a los
+                  propietarios de negocios a administrar sus tiendas en línea de
+                  manera efectiva. Esta aplicación está basada en una amplia
+                  gama de tecnologías avanzadas, como React, Redux, Tailwind,
+                  Django, PostgreSQL y Redux Toolkit, lo que permite una
+                  personalización completa de la aplicación de acuerdo a las
+                  necesidades y requerimientos específicos.
                 </p>
                 <ul role="list" className="mt-8 space-y-8 text-gray-400">
                   <li className="flex gap-x-3">
@@ -125,11 +127,16 @@ export default function OwnDark() {
                     />
                     <span>
                       <strong className="font-semibold text-white">
-                        Push to deploy.
+                        Usuarios
                       </strong>{" "}
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Maiores impedit perferendis suscipit eaque, iste dolor
-                      cupiditate blanditiis ratione.
+                      Los usuarios de OwnDarkk disfrutan de una amplia gama de
+                      funcionalidades, que incluyen la capacidad de crear una
+                      cuenta, navegar por los productos, agregar productos al
+                      carrito, variar la cantidad de los productos comprados y
+                      eliminar los productos agregados al carrito. Además, la
+                      aplicación ofrece la opción de filtrar productos por
+                      categorías, precios y nombres, lo que permite a los
+                      usuarios encontrar rápidamente lo que están buscando.
                     </span>
                   </li>
                   <li className="flex gap-x-3">
@@ -139,10 +146,15 @@ export default function OwnDark() {
                     />
                     <span>
                       <strong className="font-semibold text-white">
-                        SSL certificates.
+                        Administrador
                       </strong>{" "}
-                      Anim aute id magna aliqua ad ad non deserunt sunt. Qui
-                      irure qui lorem cupidatat commodo.
+                      Para los propietarios de negocios, OwnDarkk ofrece un
+                      panel de administrador en el cual pueden subir productos,
+                      eliminar productos, agregar categorías y agregar imágenes
+                      a los productos. La aplicación también proporciona un
+                      servicio de checkout intuitivo y fácil de usar que permite
+                      a los usuarios introducir información de envío para
+                      recibir los productos en su domicilio.
                     </span>
                   </li>
                   <li className="flex gap-x-3">
@@ -152,32 +164,43 @@ export default function OwnDark() {
                     />
                     <span>
                       <strong className="font-semibold text-white">
-                        Database backups.
+                        Interfaz
                       </strong>{" "}
-                      Ac tincidunt sapien vehicula erat auctor pellentesque
-                      rhoncus. Et magna sit morbi lobortis.
+                      La interfaz de usuario de OwnDarkk está optimizada tanto
+                      para la web como para dispositivos móviles, y utiliza
+                      Tailwind UI para ayudar en la creación de componentes en
+                      la interfaz de usuario. Además, el diseño elegante y
+                      moderno de la aplicación garantiza una experiencia de
+                      usuario atractiva y agradable.
                     </span>
                   </li>
                 </ul>
                 <p className="mt-8">
-                  Et vitae blandit facilisi magna lacus commodo. Vitae sapien
-                  duis odio id et. Id blandit molestie auctor fermentum
-                  dignissim. Lacus diam tincidunt ac cursus in vel. Mauris
-                  varius vulputate et ultrices hac adipiscing egestas. Iaculis
-                  convallis ac tempor et ut. Ac lorem vel integer orci.
+                  En resumen, OwnDarkk es una aplicación de comercio electrónico
+                  completa, que ofrece una amplia gama de funcionalidades tanto
+                  para los usuarios como para los propietarios de negocios. Esta
+                  aplicación es una verdadera joya de la tecnología, diseñada
+                  para ofrecer la mejor experiencia de compra posible y
+                  maximizar el potencial de ventas de cualquier negocio en
+                  línea.
                 </p>
                 <h2 className="mt-16 text-2xl font-bold tracking-tight text-white">
-                  No server? No problem.
+                  Experiencia creando la aplicación
                 </h2>
                 <p className="mt-6">
-                  Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam
-                  consequat in. Convallis arcu ipsum urna nibh. Pharetra,
-                  euismod vitae interdum mauris enim, consequat vulputate nibh.
-                  Maecenas pellentesque id sed tellus mauris, ultrices mauris.
-                  Tincidunt enim cursus ridiculus mi. Pellentesque nam sed
-                  nullam sed diam turpis ipsum eu a sed convallis diam.
+                  El proceso de desarrollo fue un proceso constante de
+                  aprendizaje y resolución de problemas. Me enfrenté a varios
+                  desafíos en el camino, ya que había algunas tecnologías que
+                  nunca antes había utilizado. Pero con paciencia y
+                  perseverancia, logré superarlos y terminar la aplicación. Una
+                  de las cosas que más disfruté de la creación de OwnDarkk fue
+                  la libertad creativa que tuve. Tuve la oportunidad de diseñar
+                  la aplicación y personalizarla de acuerdo a mis propias ideas
+                  y visiones. También aprendí mucho sobre la creación de una
+                  interfaz de usuario intuitiva y atractiva.
                 </p>
               </div>
+
               <div className="mt-24 text-center flex gap-4">
                 <a
                   href="https://github.com/MiguelAngel0107/Backend"

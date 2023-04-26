@@ -74,9 +74,9 @@ export default function OwnInfinity() {
                   Studio-Own-Infinity
                 </h1>
                 <p className="mt-6 text-xl leading-8 text-gray-300">
-                  Aliquet nec orci mattis amet quisque ullamcorper neque, nibh
-                  sem. At arcu, sit dui mi, nibh dui, diam eget aliquam. Quisque
-                  id at vitae feugiat egestas.
+                  OwnInfinity es una plataforma web que ofrecice funcionalidades
+                  como la reserva de citas y la promoción de productos o
+                  servicios, con un diseño amigable para el usuario.
                 </p>
               </div>
             </div>
@@ -110,12 +110,15 @@ export default function OwnInfinity() {
             <div className="lg:pr-4">
               <div className="max-w-xl text-base leading-7 text-gray-200 lg:max-w-lg">
                 <p>
-                  Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget
-                  risus enim. Mattis mauris semper sed amet vitae sed turpis id.
-                  Id dolor praesent donec est. Odio penatibus risus viverra
-                  tellus varius sit neque erat velit. Faucibus commodo massa
-                  rhoncus, volutpat. Dignissim sed eget risus enim. Mattis
-                  mauris semper sed amet vitae sed turpis id.
+                  OwnInfinity es una plataforma web de última generación
+                  diseñada para que los usuarios puedan promocionar su propia
+                  agencia de desarrollo de software con facilidad y eficiencia.
+                  La aplicación ofrece múltiples funcionalidades innovadoras,
+                  que van desde la reserva de citas hasta la promoción de
+                  productos o servicios. La plataforma cuenta con un diseño
+                  moderno y sofisticado, que se adapta perfectamente a las
+                  necesidades de los usuarios, lo que la hace atractiva a la
+                  vista y fácil de usar.
                 </p>
                 <ul role="list" className="mt-8 space-y-8 text-gray-400">
                   <li className="flex gap-x-3">
@@ -125,11 +128,14 @@ export default function OwnInfinity() {
                     />
                     <span>
                       <strong className="font-semibold text-white">
-                        Push to deploy.
+                        Gestion
                       </strong>{" "}
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Maiores impedit perferendis suscipit eaque, iste dolor
-                      cupiditate blanditiis ratione.
+                      La plataforma se compone de varios módulos, entre los que
+                      destacan la gestión de usuarios, la reserva de citas y la
+                      promoción de productos o servicios. La gestión de usuarios
+                      es una funcionalidad única que permite a los usuarios
+                      gestionar fácilmente sus clientes y llevar un registro de
+                      sus actividades en la plataforma.
                     </span>
                   </li>
                   <li className="flex gap-x-3">
@@ -139,10 +145,11 @@ export default function OwnInfinity() {
                     />
                     <span>
                       <strong className="font-semibold text-white">
-                        SSL certificates.
+                        Reserva
                       </strong>{" "}
-                      Anim aute id magna aliqua ad ad non deserunt sunt. Qui
-                      irure qui lorem cupidatat commodo.
+                      La reserva de citas es otro módulo importante, que permite
+                      a los usuarios programar citas y reuniones con clientes
+                      potenciales de manera sencilla y eficiente.
                     </span>
                   </li>
                   <li className="flex gap-x-3">
@@ -152,30 +159,40 @@ export default function OwnInfinity() {
                     />
                     <span>
                       <strong className="font-semibold text-white">
-                        Database backups.
+                        Promocion
                       </strong>{" "}
-                      Ac tincidunt sapien vehicula erat auctor pellentesque
-                      rhoncus. Et magna sit morbi lobortis.
+                      Finalmente, la promoción de productos o servicios es un
+                      módulo clave que permite a los usuarios promocionar su
+                      agencia de desarrollo de software y sus productos o
+                      servicios de manera efectiva, lo que ayuda a aumentar la
+                      visibilidad de su negocio en línea.
                     </span>
                   </li>
                 </ul>
                 <p className="mt-8">
-                  Et vitae blandit facilisi magna lacus commodo. Vitae sapien
-                  duis odio id et. Id blandit molestie auctor fermentum
-                  dignissim. Lacus diam tincidunt ac cursus in vel. Mauris
-                  varius vulputate et ultrices hac adipiscing egestas. Iaculis
-                  convallis ac tempor et ut. Ac lorem vel integer orci.
+                  OwnInfinity se desarrolló utilizando las tecnologías más
+                  avanzadas de programación web, incluyendo los frameworks de
+                  Django y React. Esto garantiza que la plataforma sea robusta y
+                  confiable, y que ofrezca una experiencia de usuario
+                  excepcional. Además, la plataforma se basa en una
+                  infraestructura en la nube de última generación, lo que
+                  garantiza una alta disponibilidad y escalabilidad, lo que
+                  significa que la plataforma siempre estará disponible para los
+                  usuarios, independientemente de su ubicación geográfica.
                 </p>
                 <h2 className="mt-16 text-2xl font-bold tracking-tight text-white">
-                  No server? No problem.
+                  Experiencia creando la aplicación
                 </h2>
                 <p className="mt-6">
-                  Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam
-                  consequat in. Convallis arcu ipsum urna nibh. Pharetra,
-                  euismod vitae interdum mauris enim, consequat vulputate nibh.
-                  Maecenas pellentesque id sed tellus mauris, ultrices mauris.
-                  Tincidunt enim cursus ridiculus mi. Pellentesque nam sed
-                  nullam sed diam turpis ipsum eu a sed convallis diam.
+                  Durante mi experiencia creando OwnInfinity, tuve la
+                  oportunidad de aplicar mis conocimientos en las tecnologías
+                  más avanzadas de programación web. Me dediqué a diseñar y
+                  desarrollar la plataforma desde cero, utilizando los
+                  frameworks de Django y React para garantizar que la plataforma
+                  fuera robusta y escalable. Además, dediqué mucho tiempo a
+                  investigar las últimas tendencias en diseño web y experiencia
+                  de usuario, lo que me permitió crear una plataforma moderna y
+                  atractiva.
                 </p>
               </div>
               <div className="mt-24 text-center flex gap-4">
