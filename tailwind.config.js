@@ -3,10 +3,9 @@ module.exports = {
   mode: "jit",
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {
-      
-    },
+    extend: {},
   },
+  darkMode: "class",
   plugins: [
     require("@tailwindcss/aspect-ratio"),
     require("@tailwindcss/forms"),

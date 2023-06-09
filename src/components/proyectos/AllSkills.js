@@ -127,7 +127,7 @@ export default function AllSkills() {
                     />
                     <span>
                       <strong className="font-semibold text-white">
-                        Push to deploy.
+                        Seguridad
                       </strong>{" "}
                       Para asegurar la transparencia y seguridad en las
                       transacciones, los pagos a los vendedores se realizan cada
@@ -144,7 +144,7 @@ export default function AllSkills() {
                     />
                     <span>
                       <strong className="font-semibold text-white">
-                        SSL certificates.
+                        Live Chat
                       </strong>{" "}
                       El proyecto también incluye una funcionalidad de chat en
                       vivo que permite a los vendedores hablar con los
@@ -161,7 +161,7 @@ export default function AllSkills() {
                     />
                     <span>
                       <strong className="font-semibold text-white">
-                        Database backups.
+                        Descentralizado
                       </strong>{" "}
                       Toda la plataforma está auditada con el sistema Jason Web
                       Token (JWT), lo que garantiza la seguridad de los datos y
