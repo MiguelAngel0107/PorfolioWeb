@@ -57,6 +57,12 @@ import AllSkills17 from "../img/proyectos/Proyect 1/photo17.png";
 import AllSkills18 from "../img/proyectos/Proyect 1/photo18.png";
 import AllSkills19 from "../img/proyectos/Proyect 1/photo19.png";
 
+import DataForIA1 from "../img/proyectos/Proyecto 6/DataForIA 1.png";
+import DataForIA2 from "../img/proyectos/Proyecto 6/DataForIA 2.png";
+import DataForIA3 from "../img/proyectos/Proyecto 6/DataForIA 3.png";
+import DataForIA4 from "../img/proyectos/Proyecto 6/DataForIA 4.png";
+import DataForIA5 from "../img/proyectos/Proyecto 6/DataForIA 5.png";
+
 export const proyectos = [
   {
     name: "DjangoSocial",
@@ -151,25 +157,7 @@ export const proyectos = [
     description:
       "Proyecto de Investigacion, recolecta datos para poder crear y entrenar modelos Neuronales",
     href: "/proyectos/dataforia",
-    photos: [
-      AllSkills1,
-      AllSkills2,
-      AllSkills3,
-      AllSkills4,
-      AllSkills5,
-      AllSkills6,
-      AllSkills7,
-      AllSkills8,
-      AllSkills9,
-      AllSkills10,
-      AllSkills12,
-      AllSkills14,
-      AllSkills15,
-      AllSkills16,
-      AllSkills17,
-      AllSkills18,
-      AllSkills19,
-    ],
+    photos: [DataForIA1, DataForIA2, DataForIA3, DataForIA4, DataForIA5],
     icon: ChartPieIcon,
   },
   /*{
