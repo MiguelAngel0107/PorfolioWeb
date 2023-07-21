@@ -63,6 +63,15 @@ import DataForIA3 from "../img/proyectos/Proyecto 6/DataForIA 3.jpg";
 import DataForIA4 from "../img/proyectos/Proyecto 6/DataForIA 4.png";
 import DataForIA5 from "../img/proyectos/Proyecto 6/DataForIA 5.png";
 
+import TePagoImg1 from "../img/proyectos/Proyecto 5/TePago1.png";
+import TePagoImg2 from "../img/proyectos/Proyecto 5/TePago2.png";
+import TePagoImg3 from "../img/proyectos/Proyecto 5/TePago3.png";
+import TePagoImg4 from "../img/proyectos/Proyecto 5/TePago4.png";
+import TePagoImg5 from "../img/proyectos/Proyecto 5/TePago5.png";
+import TePagoImg6 from "../img/proyectos/Proyecto 5/TePago6.png";
+import TePagoImg7 from "../img/proyectos/Proyecto 5/TePago7.png";
+import TePagoImg8 from "../img/proyectos/Proyecto 5/TePago8.png";
+
 export const proyectos = [
   {
     name: "DjangoSocial",
@@ -132,23 +141,14 @@ export const proyectos = [
       "TePago se enfoca en bridar un mayor control y seguimiento sobre deudas y fiados. ",
     href: "/proyectos/tepago",
     photos: [
-      AllSkills1,
-      AllSkills2,
-      AllSkills3,
-      AllSkills4,
-      AllSkills5,
-      AllSkills6,
-      AllSkills7,
-      AllSkills8,
-      AllSkills9,
-      AllSkills10,
-      AllSkills12,
-      AllSkills14,
-      AllSkills15,
-      AllSkills16,
-      AllSkills17,
-      AllSkills18,
-      AllSkills19,
+      TePagoImg1,
+      TePagoImg2,
+      TePagoImg3,
+      TePagoImg4,
+      TePagoImg5,
+      TePagoImg6,
+      TePagoImg7,
+      TePagoImg8,
     ],
     icon: ArrowPathIcon,
   },
