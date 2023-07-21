@@ -67,16 +67,12 @@ function TePago() {
             <div className="lg:pr-4">
               <div className="lg:max-w-lg">
                 <p className="text-base font-semibold leading-7 text-indigo-600">
-                  NextJs y DjangoRestFramework
+                  ReactNative y DjangoRestFramework
                 </p>
                 <h1 className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
-                  Chat-Ecommerce-Blog
+                  TePago
                 </h1>
-                <p className="mt-6 text-xl leading-8 text-gray-300">
-                  Este proyecto es una plataforma de comercio electrónico
-                  completa y segura que brinda a los usuarios una experiencia
-                  única y agradable de compra y venta en línea.
-                </p>
+                <p className="mt-6 text-xl leading-8 text-gray-300">Texto</p>
               </div>
             </div>
           </div>
@@ -108,17 +104,7 @@ function TePago() {
           <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
             <div className="lg:pr-4">
               <div className="max-w-xl text-base leading-7 text-gray-200 lg:max-w-lg">
-                <p>
-                  Este proyecto tiene como objetivo consolidar tus conocimientos
-                  en el desarrollo de software y adquirir nuevos conocimientos
-                  en la materia. Consta de una plataforma de comercio
-                  electrónico que permite a cualquier usuario registrado y
-                  verificado vender productos en línea. Los productos se
-                  muestran en la tienda y los compradores pueden pagar por ellos
-                  utilizando una moneda digital exclusiva de la plataforma. Los
-                  vendedores tienen un perfil público y privado en el que pueden
-                  gestionar sus productos y ventas.
-                </p>
+                <p>Texto1</p>
                 <ul role="list" className="mt-8 space-y-8 text-gray-400">
                   <li className="flex gap-x-3">
                     <CloudArrowUpIcon
@@ -129,12 +115,7 @@ function TePago() {
                       <strong className="font-semibold text-white">
                         Seguridad
                       </strong>{" "}
-                      Para asegurar la transparencia y seguridad en las
-                      transacciones, los pagos a los vendedores se realizan cada
-                      mes, y en caso de una estafa, el cliente será reembolsado
-                      inmediatamente. Además, la plataforma cuenta con un
-                      sistema de encriptación de contraseñas y cualquier
-                      información sensible mediante algoritmos hash.
+                      Texto2
                     </span>
                   </li>
                   <li className="flex gap-x-3">
@@ -146,12 +127,7 @@ function TePago() {
                       <strong className="font-semibold text-white">
                         Live Chat
                       </strong>{" "}
-                      El proyecto también incluye una funcionalidad de chat en
-                      vivo que permite a los vendedores hablar con los
-                      compradores para establecer reglas o acordar precios antes
-                      de la compra de un producto. Además, cuenta con un blog en
-                      el que los clientes pueden publicar información sobre los
-                      productos que han comprado.
+                      Texto3
                     </span>
                   </li>
                   <li className="flex gap-x-3">
@@ -163,50 +139,15 @@ function TePago() {
                       <strong className="font-semibold text-white">
                         Descentralizado
                       </strong>{" "}
-                      Toda la plataforma está auditada con el sistema Jason Web
-                      Token (JWT), lo que garantiza la seguridad de los datos y
-                      la información de los usuarios. Asimismo, se implementó
-                      una integración con la red de la blockchain de Ethereum
-                      para el tema de la moneda digital exclusiva de la
-                      plataforma. Se desplegó un Smart Contract en el protocolo
-                      Ethereum utilizando Solidity que da la potestad de tener
-                      todos los tokens al creador de la plataforma, quien
-                      repartirá los tokens entre los vendedores en función de
-                      sus necesidades de liquidez. Los tokens tienen un valor de
-                      $1 cada uno y se utilizan para las transacciones entre
-                      compradores y vendedores.
+                      Texto4
                     </span>
                   </li>
                 </ul>
-                <p className="mt-8">
-                  Este proyecto es uno de los más avanzados y completos que has
-                  realizado, ya que ha requerido meses de estudio y análisis
-                  para implementar nuevas soluciones y abordar nuevos problemas.
-                  Gracias a esta experiencia, has adquirido nuevos conocimientos
-                  en tecnologías como Django, Redis, WebSockets, ASGI, y
-                  Ethereum, así como en la implementación de sistemas de
-                  seguridad y pagos en línea.
-                </p>
+                <p className="mt-8">Texto5</p>
                 <h2 className="mt-16 text-2xl font-bold tracking-tight text-white">
                   Experiencia creando la aplicación
                 </h2>
-                <p className="mt-6">
-                  Durante el proceso de desarrollo, enfrenté varios problemas
-                  que tuve que solucionar y aprendí nuevas habilidades y
-                  técnicas. Implementé medidas de seguridad para proteger la
-                  información de los usuarios y utilicé un sistema Json web
-                  token para autenticar las transacciones. También utilicé una
-                  base de datos de Redis y websockets para mejorar la eficiencia
-                  de la aplicación. Además, desplegué un Smart Contract en el
-                  protocolo Ethereum utilizando Solidity para la distribución de
-                  tokens digitales exclusivos. <br /> <br />
-                  En general, este proyecto ha sido uno de los más avanzados y
-                  completos que he realizado en todos estos años. Me siento
-                  orgulloso de haber creado una aplicación que integra varias
-                  tecnologías y soluciona problemas reales de los usuarios.
-                  Espero seguir mejorando y añadiendo más funcionalidades en el
-                  futuro.
-                </p>
+                <p className="mt-6">Texto6</p>
               </div>
               <div className="mt-24 text-center">
                 <a
