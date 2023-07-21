@@ -9,7 +9,7 @@ export default function Incio() {
       <Header />
 
       <section class="bg-gray-900 items-center flex py-24">
-        <div class="flex flex-wrap mx-auto md:flex-nowrap p-4 md:p-12">
+        <div class="grid grid-cols-1 mx-auto md:grid-cols-4 p-4 md:p-12">
           {proyectos.map((proyect, index) => {
             return (
               <Link to={proyect.href}>

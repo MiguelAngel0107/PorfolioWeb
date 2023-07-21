@@ -7,6 +7,8 @@ import SocialDjango from "./components/proyectos/SocialDjango";
 import OwnInfinity from "./components/proyectos/OwnInfinity";
 import OwnDark from "./components/proyectos/OwnDark";
 import AllSkills from "./components/proyectos/AllSkills";
+import TePago from "./components/proyectos/TePago";
+import CollectDataForIA from "./components/proyectos/CollectDataForIA";
 function App() {
   return (
     <Router>
@@ -19,6 +21,8 @@ function App() {
         <Route exact path="/proyectos/infinity" element={<OwnInfinity />} />
         <Route exact path="/proyectos/dark" element={<OwnDark />} />
         <Route exact path="/proyectos/all" element={<AllSkills />} />
+        <Route exact path="/proyectos/tepago" element={<TePago />} />
+        <Route exact path="/proyectos/dataforia" element={<CollectDataForIA />} />
         <Route exact path="/contacto" element={<Contacto />} />
       </Routes>
     </Router>

@@ -60,21 +60,24 @@ import AllSkills19 from "../img/proyectos/Proyect 1/photo19.png";
 export const proyectos = [
   {
     name: "DjangoSocial",
-    description: "Se utilizo Django y TailwindCSS, fue uno de los primeros proyectos",
+    description:
+      "Se utilizo Django y TailwindCSS, fue uno de los primeros proyectos",
     href: "/proyectos/social",
     photos: [Social1, Social2, Social3, Social4],
     icon: ChartPieIcon,
   },
   {
     name: "OwnDarkEcommerce",
-    description: "Se utilizo DRF, React y Tailwind, se llego a desplegar pero era costo mantenerlo.",
+    description:
+      "Se utilizo DRF, React y Tailwind, se llego a desplegar pero era costo mantenerlo.",
     href: "/proyectos/dark",
     photos: [Dark1, Dark2, Dark3, Dark4, Dark5, Dark6, Dark7, Dark8],
     icon: CursorArrowRaysIcon,
   },
   {
     name: "OwnInfinity",
-    description: "Se utilizo DRF, React y Tailwind, fue el primer intento de aperturar un Studio",
+    description:
+      "Se utilizo DRF, React y Tailwind, fue el primer intento de aperturar un Studio",
     href: "/proyectos/infinity",
     photos: [
       Infinity1,
@@ -93,7 +96,8 @@ export const proyectos = [
   },
   {
     name: "Multi-Tasks",
-    description: "Se utilizo demasiadas tecnologias, el objetivo era consolidar conocimientos",
+    description:
+      "Se utilizo demasiadas tecnologias, el objetivo era consolidar conocimientos",
     href: "/proyectos/all",
     photos: [
       AllSkills1,
@@ -115,6 +119,58 @@ export const proyectos = [
       AllSkills19,
     ],
     icon: SquaresPlusIcon,
+  },
+  {
+    name: "TePago",
+    description:
+      "TePago se enfoca en bridar un mayor control y seguimiento sobre deudas y fiados. ",
+    href: "/proyectos/tepago",
+    photos: [
+      AllSkills1,
+      AllSkills2,
+      AllSkills3,
+      AllSkills4,
+      AllSkills5,
+      AllSkills6,
+      AllSkills7,
+      AllSkills8,
+      AllSkills9,
+      AllSkills10,
+      AllSkills12,
+      AllSkills14,
+      AllSkills15,
+      AllSkills16,
+      AllSkills17,
+      AllSkills18,
+      AllSkills19,
+    ],
+    icon: ArrowPathIcon,
+  },
+  {
+    name: "DataForIA",
+    description:
+      "Proyecto de Investigacion, recolecta datos para poder crear y entrenar modelos Neuronales",
+    href: "/proyectos/dataforia",
+    photos: [
+      AllSkills1,
+      AllSkills2,
+      AllSkills3,
+      AllSkills4,
+      AllSkills5,
+      AllSkills6,
+      AllSkills7,
+      AllSkills8,
+      AllSkills9,
+      AllSkills10,
+      AllSkills12,
+      AllSkills14,
+      AllSkills15,
+      AllSkills16,
+      AllSkills17,
+      AllSkills18,
+      AllSkills19,
+    ],
+    icon: ChartPieIcon,
   },
   /*{
     name: "Automations",
