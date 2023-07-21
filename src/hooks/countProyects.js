@@ -59,7 +59,7 @@ import AllSkills19 from "../img/proyectos/Proyect 1/photo19.png";
 
 import DataForIA1 from "../img/proyectos/Proyecto 6/DataForIA 1.png";
 import DataForIA2 from "../img/proyectos/Proyecto 6/DataForIA 2.png";
-import DataForIA3 from "../img/proyectos/Proyecto 6/DataForIA 3.png";
+import DataForIA3 from "../img/proyectos/Proyecto 6/DataForIA 3.jpg";
 import DataForIA4 from "../img/proyectos/Proyecto 6/DataForIA 4.png";
 import DataForIA5 from "../img/proyectos/Proyecto 6/DataForIA 5.png";
 
