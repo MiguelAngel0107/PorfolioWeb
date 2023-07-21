@@ -71,6 +71,27 @@ export default function CsarruseLogos(props) {
       ethereumLogo,
       redisLogo,
     ],
+    TePago: [
+      djangoLogo,
+      postmanLogo,
+      pythonLogo,
+      postgresLogo,
+      javascriptLogo,
+      reduxLogo,
+      nextjsLogo,
+    ],
+    DataForIA: [
+      djangoLogo,
+      tailwindLogo,
+      postmanLogo,
+      pythonLogo,
+      postgresLogo,
+      javascriptLogo,
+      reduxLogo,
+      nextjsLogo,
+      dockerLogo,
+      redisLogo,
+    ],
   });
 
   useEffect(() => {

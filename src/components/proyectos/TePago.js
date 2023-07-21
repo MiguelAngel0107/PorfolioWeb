@@ -102,7 +102,7 @@ function TePago() {
                 </ul>
               </div>
             </div>
-            <CsarruseLogos logos="allSkills" />
+            <CsarruseLogos logos="TePago" />
           </div>
 
           <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
@@ -210,7 +210,7 @@ function TePago() {
               </div>
               <div className="mt-24 text-center">
                 <a
-                  href="https://github.com/MiguelAngel0107/Project-All-Skills"
+                  href="https://github.com/MiguelAngel0107/TePago"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-800 hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
