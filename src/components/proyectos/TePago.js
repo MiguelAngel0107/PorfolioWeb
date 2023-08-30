@@ -72,7 +72,13 @@ function TePago() {
                 <h1 className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
                   TePago
                 </h1>
-                <p className="mt-6 text-xl leading-8 text-gray-300">Texto</p>
+                <p className="mt-6 text-xl leading-8 text-gray-300">
+                  En el mundo acelerado de hoy, prestar dinero o productos a
+                  amigos y conocidos es común, pero a menudo puede ser un
+                  desafío recordar quién te debe y cuánto. Aquí es donde entra
+                  en juego TePago, nuestra innovadora aplicación móvil diseñada
+                  para brindarte un control total sobre tus deudas y préstamos.
+                </p>
               </div>
             </div>
           </div>
@@ -113,9 +119,12 @@ function TePago() {
                     />
                     <span>
                       <strong className="font-semibold text-white">
-                        Seguridad
+                        Organización Eficiente:
                       </strong>{" "}
-                      Texto2
+                      Con TePago, olvídate de los inconvenientes de llevar un
+                      registro manual de tus deudas. Nuestra aplicación te
+                      permite rastrear de manera efectiva a quién le prestaste y
+                      cuánto.
                     </span>
                   </li>
                   <li className="flex gap-x-3">
@@ -125,9 +134,12 @@ function TePago() {
                     />
                     <span>
                       <strong className="font-semibold text-white">
-                        Live Chat
+                        Recordatorios Personalizados:
                       </strong>{" "}
-                      Texto3
+                      Mantén el control de tus finanzas con recordatorios
+                      personalizados. TePago te alertará cuándo es el momento de
+                      cobrar, asegurándote de no pasar por alto ninguna deuda
+                      pendiente.
                     </span>
                   </li>
                   <li className="flex gap-x-3">
@@ -137,17 +149,41 @@ function TePago() {
                     />
                     <span>
                       <strong className="font-semibold text-white">
-                        Descentralizado
+                        Gestión de Contactos:
                       </strong>{" "}
-                      Texto4
+                      Hemos simplificado la gestión de tus contactos. Cada
+                      persona está vinculada a su propia cuenta en la
+                      aplicación, donde puedes ver cuánto deben, cuándo deben
+                      pagarte y detalles relacionados.
+                    </span>
+                  </li>
+                  <li className="flex gap-x-3">
+                    <ServerIcon
+                      className="mt-1 h-5 w-5 flex-none text-indigo-600"
+                      aria-hidden="true"
+                    />
+                    <span>
+                      <strong className="font-semibold text-white">
+                        Control de Productos:
+                      </strong>{" "}
+                      Si eres un comerciante que también presta productos en
+                      fiado, TePago es tu solución. Añade productos con sus
+                      respectivos precios y lleva un registro claro de las
+                      transacciones relacionadas.
                     </span>
                   </li>
                 </ul>
-                <p className="mt-8">Texto5</p>
+
                 <h2 className="mt-16 text-2xl font-bold tracking-tight text-white">
-                  Experiencia creando la aplicación
+                  Tu Asistente Financiero Personal:
                 </h2>
-                <p className="mt-6">Texto6</p>
+                <p className="mt-6">
+                  Con TePago, tu teléfono se convierte en tu asistente
+                  financiero personal. Nunca más tendrás que preocuparte por
+                  perder de vista tus préstamos y deudas. La aplicación está
+                  diseñada para simplificar la administración de tus finanzas y
+                  ayudarte a recuperar tu dinero de manera efectiva.
+                </p>
               </div>
               <div className="mt-24 text-center">
                 <a

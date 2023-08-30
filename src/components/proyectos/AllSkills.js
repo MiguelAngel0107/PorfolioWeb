@@ -109,15 +109,15 @@ export default function AllSkills() {
             <div className="lg:pr-4">
               <div className="max-w-xl text-base leading-7 text-gray-200 lg:max-w-lg">
                 <p>
-                  Este proyecto tiene como objetivo consolidar tus conocimientos
-                  en el desarrollo de software y adquirir nuevos conocimientos
-                  en la materia. Consta de una plataforma de comercio
-                  electrónico que permite a cualquier usuario registrado y
-                  verificado vender productos en línea. Los productos se
-                  muestran en la tienda y los compradores pueden pagar por ellos
-                  utilizando una moneda digital exclusiva de la plataforma. Los
-                  vendedores tienen un perfil público y privado en el que pueden
-                  gestionar sus productos y ventas.
+                  El objetivo de este proyecto fue consolidar mis conocimientos
+                  en el desarrollo de software y adquirir nuevas habilidades en
+                  el campo. Consiste en una plataforma de comercio electrónico
+                  que permite a cualquier usuario registrado y verificado vender
+                  productos en línea. Los productos se muestran en la tienda, y
+                  los compradores pueden realizar pagos utilizando una moneda
+                  digital exclusiva de la plataforma. Los vendedores tienen
+                  perfiles públicos y privados donde pueden administrar sus
+                  productos y ventas.
                 </p>
                 <ul role="list" className="mt-8 space-y-8 text-gray-400">
                   <li className="flex gap-x-3">
@@ -163,7 +163,7 @@ export default function AllSkills() {
                       <strong className="font-semibold text-white">
                         Descentralizado
                       </strong>{" "}
-                      Toda la plataforma está auditada con el sistema Jason Web
+                      Toda la plataforma está auditada con el sistema Json Web
                       Token (JWT), lo que garantiza la seguridad de los datos y
                       la información de los usuarios. Asimismo, se implementó
                       una integración con la red de la blockchain de Ethereum
@@ -179,10 +179,10 @@ export default function AllSkills() {
                   </li>
                 </ul>
                 <p className="mt-8">
-                  Este proyecto es uno de los más avanzados y completos que has
+                  Este proyecto es uno de los más avanzados y completos que he
                   realizado, ya que ha requerido meses de estudio y análisis
                   para implementar nuevas soluciones y abordar nuevos problemas.
-                  Gracias a esta experiencia, has adquirido nuevos conocimientos
+                  Gracias a esta experiencia, he adquirido nuevos conocimientos
                   en tecnologías como Django, Redis, WebSockets, ASGI, y
                   Ethereum, así como en la implementación de sistemas de
                   seguridad y pagos en línea.

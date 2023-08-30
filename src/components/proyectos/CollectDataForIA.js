@@ -70,10 +70,18 @@ function CollectDataForIA() {
                   NextJs y DjangoRestFramework
                 </p>
                 <h1 className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
-                  CollectDataForIA
+                  View of the World
                 </h1>
                 <p className="mt-6 text-xl leading-8 text-gray-300">
-                  Texto
+                  Nuestra plataforma de videoconferencia revoluciona la forma en
+                  que compartimos conocimientos y nos conectamos a nivel global.
+                  Imagina un espacio donde las reuniones son ilimitadas y están
+                  disponibles para todos, donde las mentes creativas y
+                  apasionadas pueden compartir sus conocimientos con el mundo
+                  entero. Esto es lo que ofrecemos: una plataforma de
+                  videoconferencia que empodera a las personas con tiempo y
+                  habilidades para impartir sus conocimientos de manera libre y
+                  sin restricciones.
                 </p>
               </div>
             </div>
@@ -106,9 +114,7 @@ function CollectDataForIA() {
           <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
             <div className="lg:pr-4">
               <div className="max-w-xl text-base leading-7 text-gray-200 lg:max-w-lg">
-                <p>
-                Texto1
-                </p>
+                <p>Texto1</p>
                 <ul role="list" className="mt-8 space-y-8 text-gray-400">
                   <li className="flex gap-x-3">
                     <CloudArrowUpIcon
@@ -117,9 +123,12 @@ function CollectDataForIA() {
                     />
                     <span>
                       <strong className="font-semibold text-white">
-                        Seguridad
+                        Reuniones Sin Límites:
                       </strong>{" "}
-                      Texto2
+                      Creemos en la libertad de compartir y aprender. Por eso,
+                      nuestras reuniones son ilimitadas en tiempo y alcance. No
+                      hay restricciones para la cantidad de reuniones que puedes
+                      organizar o la duración de cada una.
                     </span>
                   </li>
                   <li className="flex gap-x-3">
@@ -129,9 +138,12 @@ function CollectDataForIA() {
                     />
                     <span>
                       <strong className="font-semibold text-white">
-                        Live Chat
+                        Mensajería Encriptada y Privada:
                       </strong>{" "}
-                      Texto3
+                      Valoramos tu privacidad y seguridad. Por eso, hemos
+                      integrado un sistema de mensajería encriptada para que
+                      puedas comunicarte de manera segura con otros usuarios en
+                      nuestra plataforma.
                     </span>
                   </li>
                   <li className="flex gap-x-3">
@@ -141,21 +153,20 @@ function CollectDataForIA() {
                     />
                     <span>
                       <strong className="font-semibold text-white">
-                        Descentralizado
+                        Red de Amistad:
                       </strong>{" "}
-                      Texto4
+                      La conexión humana es fundamental. Hemos creado un sistema
+                      de amistad que te permite conectar con otros usuarios,
+                      enviar y recibir solicitudes de amistad, y construir una
+                      red de relaciones significativas.
                     </span>
                   </li>
                 </ul>
-                <p className="mt-8">
-                Texto5
-                </p>
+                <p className="mt-8"></p>
                 <h2 className="mt-16 text-2xl font-bold tracking-tight text-white">
                   Experiencia creando la aplicación
                 </h2>
-                <p className="mt-6">
-                Texto6
-                </p>
+                <p className="mt-6">Con ViewWorld, estamos abriendo las puertas a una experiencia única de aprendizaje y conexión. Nuestro objetivo es fomentar la colaboración global, permitiendo que personas apasionadas compartan sus conocimientos y enriquezcan la vida de otros.</p>
               </div>
               <div className="mt-24 text-center">
                 <a

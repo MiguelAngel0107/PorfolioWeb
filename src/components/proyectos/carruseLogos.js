@@ -124,7 +124,7 @@ export default function CsarruseLogos(props) {
 
   return (
     <div
-      className="glide bg-slate-900/5 w-128 pr-40 md:pr-0 md:-mr-44 lg:-mr-12 lg:-ml-12 lg:p-12 2xl:pr-32"
+      className="glide bg-slate-900/5 w-128 pr-40 md:pr-0 md:-mr-44 lg:-mr-12 lg:-ml-12 lg:p-12 2xl:pr-32 mt-6"
       ref={glideRef2}
     >
       <div className="glide__track" data-glide-el="track">
